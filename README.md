@@ -18,7 +18,7 @@
 
 我们要实现的是 ext2 文件系统，其原型是 1984 年提出的 [BSD Fast File System](https://people.eecs.berkeley.edu/~brewer/cs262/FFS.pdf)。不过说实话这篇论文太原理了些，下面还是简要介绍一下。
 
-![](https://pic.imgdb.cn/item/66ee9c4cf21886ccc03dd0b7.png)
+![图](https://pic.imgdb.cn/item/66ee9c4cf21886ccc03dd0b7.png)
 
 这张图的第二、三行展示了 ext2 的结构，第一行实际上说明， Linux 下每个分区的文件系统相互独立，即不在我们实现的范畴。
 
